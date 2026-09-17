@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+_build.py
+_pages.py
+_pages2.py
+_pages3.py
+build_all.py
