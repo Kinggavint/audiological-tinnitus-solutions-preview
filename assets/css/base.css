@@ -133,9 +133,13 @@ li { margin-bottom: 0.5em; }
   width: auto;
 }
 .brand-text {
-  display: flex;
+  display: none;
   flex-direction: column;
   line-height: 1.1;
+  white-space: nowrap;
+}
+@media (min-width: 1400px) {
+  .brand-text { display: flex; }
 }
 .brand-text .lockup-1 {
   font-family: var(--font-serif);
@@ -143,13 +147,15 @@ li { margin-bottom: 0.5em; }
   font-size: 1.05rem;
   color: var(--brown);
   letter-spacing: 0.01em;
+  white-space: nowrap;
 }
 .brand-text .lockup-2 {
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   color: var(--orange-2);
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 /* Primary nav */
@@ -161,10 +167,13 @@ li { margin-bottom: 0.5em; }
 .primary-nav a {
   color: var(--brown);
   font-weight: 500;
-  font-size: 0.98rem;
-  padding: 10px 12px;
+  font-size: 0.95rem;
+  padding: 10px 10px;
   border-radius: 8px;
   white-space: nowrap;
+}
+@media (min-width: 1200px) {
+  .primary-nav a { font-size: 0.98rem; padding: 10px 12px; }
 }
 .primary-nav a:hover, .primary-nav a[aria-current="page"] {
   background: var(--cream-warm);
