@@ -139,9 +139,7 @@ li { margin-bottom: 0.5em; }
   line-height: 1.1;
   white-space: nowrap;
 }
-@media (min-width: 1600px) {
-  .brand-text { display: flex; }
-}
+/* Brand text lockup is baked into the logo image; keep it hidden to prevent header clipping */
 .brand-text .lockup-1 {
   font-family: var(--font-serif);
   font-weight: 700;
