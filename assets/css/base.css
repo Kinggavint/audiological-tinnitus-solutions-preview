@@ -115,10 +115,11 @@ li { margin-bottom: 0.5em; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
-  padding: 14px 24px;
+  gap: 16px;
+  padding: 14px 20px;
   max-width: var(--content-w);
   margin: 0 auto;
+  overflow: hidden;
 }
 .brand {
   display: flex;
@@ -138,7 +139,7 @@ li { margin-bottom: 0.5em; }
   line-height: 1.1;
   white-space: nowrap;
 }
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
   .brand-text { display: flex; }
 }
 .brand-text .lockup-1 {
